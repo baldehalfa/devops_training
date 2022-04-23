@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     aws = {
-        sourcsource = "hashicorp/aws"
-        versionversion = "~> 3.0"
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
     }
   }
 }
@@ -11,3 +11,8 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+
+resource "aws_s3_bucket" "my_s3_bucket" {
+  bucket = "baldehalfa-s3-001"
+}
+
