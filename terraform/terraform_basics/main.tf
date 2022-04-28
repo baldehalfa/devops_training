@@ -16,3 +16,7 @@ resource "aws_s3_bucket" "my_s3_bucket" {
   bucket = "baldehalfa-s3-001"
 }
 
+resource "aws_iam_user" "my_iam_user" {
+  name = "my_iam_user_baldeh"
+
+}
