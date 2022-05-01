@@ -30,4 +30,46 @@ __CALMS__:
 
 ## DevOps Principles: The Seven Principles and Seven Wastes of Lean
 
-1- __Eliminate waste__: Don't code more features than needed
+Principle #1- __Eliminate waste__: Don't code more features than needed
+
+Principle #2- __Build Quality In__: "Quality is everyone's responsibility" - _Edwards Deming_
+verify that quality is built into the product and process.
+
+Principle #3- __Create Knowledge__: AKA (Amplifying learning). Development is constant learning
+
+Principle #4- __Defer Commitment__: Make decision at the right time, After analysis and consideration, Delay decisions until you have more information.
+Two types of decision making:
+One-way door: can't come back
+two-way door: you can come back
+decision making depends on distinction 
+
+Principle #5- __Deliver fast__: ensure feedback received early and often, Allow for course correction, smaller batches allow you to deliver faster
+
+Principle #6- __Respect People__: Lack respect for people in your culture?, Lean and DevOps falls apart
+
+Principle #7- __Optimizing the whole__: Employ systems thinking
+
+Waste #1- __Partially done work__: delays delivery of value and leads to quality issues
+
+Waste #2- __Extra Features__: don't build more than customer needs
+
+Waste #3- __Revisiting Decisions__: resurfacing decisions or information is wasteful
+
+Waste #4- __Handoffs__: includes back and forth communication
+
+Waste #5- __Delays__: whenever process has to wait to proceed
+
+Waste #6- __Task Switching__: research proves "multitasking" is the enemy of all productivity!
+
+Waste #7- __Defects__: build quality in from the get-go!
+
+## Improvement Kata
+
+It comes from toyota production system and it is a process for __continuous improvement__
+
+Steps in improvement kata:
+
+1. Understand __vision__ & __direction__ for project
+2. Analyze to understand __current condition__
+3. Establish __target condition__
+4. Plan > Do > Check > Act [PDCA] toward target
