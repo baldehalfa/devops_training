@@ -73,3 +73,29 @@ Steps in improvement kata:
 2. Analyze to understand __current condition__
 3. Establish __target condition__
 4. Plan > Do > Check > Act [PDCA] toward target
+
+## A3 Problem Solving Framework
+
+A3 refers to European paper size equivalent to 11 inches by 17 inches used to outline templates.
+A3 Problem solving = __structured steps__
+
+A3 Problem solving steps:
+
+Step #1- __Set the background__: include statement of how problem directly __impact__ business outcomes
+
+Step #2- __Understand current condition and set problem statement__: aligned with the improvement kata language. Current __reality__ = where things stand today
+
+Step #3- __Develop the goal__: target state you are trying to __achieve__, explain how you will measure __outcome__
+
+Step #4- __Performance analysis__: it is also called root cause analysis. identify root cause, there may be multiple factors
+
+the first four steps are the planning phase and it is advised to spend more time in the planning phase as great planning leads ti successful outcomes
+
+Step #5- __Brainstorm__: how do you intend to reach the target condition?? come up with hypothesis on how countermeasure can help reach goal.
+__countermeasure__: decision criteria -> effort vs impact
+
+Step #6- __Create implementation plan__: this enables you to check __result__. __confirms__ impact on current condition
+
+Step #7- __Update__: update "standard work" based on the outcome of the steps taken.
+
+### A3 problem solving framework can be used to create a culture of continuous improvement and learning
