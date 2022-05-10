@@ -99,3 +99,35 @@ Step #6- __Create implementation plan__: this enables you to check __result__. _
 Step #7- __Update__: update "standard work" based on the outcome of the steps taken.
 
 ### A3 problem solving framework can be used to create a culture of continuous improvement and learning
+
+## The Westrum Model for Improving Organizational Culture:
+
+__Westrum Model:__ Ron Westrum researched human factors in system safety particularly in accidents and technological domains that are highly complexes and risky such as aviation and healthcare. This led him to develop a topology of organizational cultures.
+
+__Pathological:__ large amount of fear and threat
+__Bureaucratic:__ rule-oriented
+__Generative:__ performance-oriented 
+
+Three characteristics of good information: 
+- __Answers provided__
+- __timeliness__
+- __Presented in such a way to be effective__
+
+Data has shown that culture can __predict__ software delivery performance.
+
+### What does a goof culture look like? 
+__Generative Culture Team:__ A good culture requires __Trust__ and __cooperation__ across the organization. It also indicates __high-quality__ decision making.
+
+## Leadership Philosophies 
+__Honor__ reality, but also __extract__ reality. Focus on the path forward 
+
+__Leadership is accountable:__ provide strategic decision, prioritization, focus, and discipline. Encourage a __learning__ environment = empower teams and individuals. Provide intent, context, and accountability.
+
+__Lifelong Learner:__ be active in __community__ and learn from others. New experience gives additional __knowledge__ and build __resilience__ 
+
+## Changing Metrics: Shifting from Outputs to Outcomes
+
+### Outputs vs Outcomes:
+Output = what we __deliver__
+Outcome = what we gain from the __output__ [outcome increase revenue, improve efficiency]
+__focus__ on the outcome
