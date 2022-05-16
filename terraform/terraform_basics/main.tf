@@ -24,11 +24,11 @@ resource "aws_iam_user" "my_iam_user" {
   name = "my_user_baldeh"
 }
 
-resource "aws_iam_user" "my_iam_user" {
-  name = "my_user_baldeh"
-}
+# resource "aws_iam_user" "my_iam_user" {
+#   name = "my_user_baldeh"
+# }
 
-# Creation of an IAM user
-resource "aws_iam_user" "my_iam_user" {
-  name = "my_iam_user_baldeh"
-}
+# # Creation of an IAM user
+# resource "aws_iam_user" "my_iam_user" {
+#   name = "my_iam_user_baldeh"
+# }

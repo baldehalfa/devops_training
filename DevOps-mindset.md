@@ -129,5 +129,6 @@ __Lifelong Learner:__ be active in __community__ and learn from others. New expe
 
 ### Outputs vs Outcomes:
 Output = what we __deliver__
+
 Outcome = what we gain from the __output__ [outcome increase revenue, improve efficiency]
 __focus__ on the outcome
