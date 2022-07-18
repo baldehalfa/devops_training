@@ -1,3 +1,6 @@
+### Ansible commands
+
+```
 cd ~/Documents/training/devops_training/ansible 
 ansible --version
 ansible -m ping all
@@ -36,3 +39,4 @@ ansible-inventory --list
 ansible-inventory --graph
 ansible-playbook playbooks/08-dynamic-inventory-ping.yml 
 ansible-playbook playbooks/09-create-ec2.yml 
+```
