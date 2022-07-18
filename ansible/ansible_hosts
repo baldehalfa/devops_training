@@ -1,4 +1,17 @@
 [dev]
-172.31.81.21
-172.31.88.198
-172.31.85.59
+dev1 ansible_host = 172.31.81.21
+dev2 ansible_host = 172.31.85.59
+
+[qa]
+qa1 ansible_host = 172.31.88.198
+
+[first]
+dev1
+qa1
+
+[groupofgroups:children]
+dev
+first
+
+[devsubset]
+dev[1:2]
