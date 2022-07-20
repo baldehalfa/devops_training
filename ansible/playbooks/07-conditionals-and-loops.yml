@@ -1,0 +1,24 @@
+---
+
+# Ansible playbook understanding conditionals and loops
+- hosts: qa
+  vars:
+    system: "linux"
+    color: "Red"
+  tasks:
+    - debug: var=hostvars
+    - debug: var=color 
+      when: system == 'Linux'
+    - debug: var=item
+      with_items: 
+      - item1
+      - item2
+      - item3
+    - debug: var=item
+      with_items: 
+      - name: Alpha
+        country: Fouta
+      - name: Lawol
+        country: Bowal
+      - name: Pontiolon
+        country: pitawoye
