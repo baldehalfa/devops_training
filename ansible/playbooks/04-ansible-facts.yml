@@ -1,0 +1,17 @@
+---
+
+# Ansible playbook understanding ansible facts
+- hosts: qa
+  tasks:
+    - name: Kernel
+      debug: msg="{{ ansible_kernel }}"
+    - name: Hostname
+      debug: msg="{{ ansible_hostname }}"
+    - name: Distribution
+      debug: msg="{{ ansible_distribution }}"
+    - name: Architecture
+      debug: msg="{{ ansible_architecture }}"
+    - debug: var=inventory_hostname
+    - debug: var=groups
+    - debug: var=group_name
+    - debug: var=hostvars
