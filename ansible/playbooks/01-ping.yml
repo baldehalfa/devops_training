@@ -1,5 +1,12 @@
 ---
+
+# Ansible playbook for pinging servers
 - hosts: all
   tasks:
     - name: Ping All Servers
       action: ping
+    - debug: msg="Hi there!"
+
+- hosts: dev
+  tasks:
+    - debug: msg="Hi there!"
