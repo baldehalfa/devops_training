@@ -21,7 +21,7 @@ ansible devsubset -a "python --version"
 ansible --list-host all
 ansible --list-host dev
 ansible --list-host first
-ansible --list-host \!first
+ansible --list-host \!first # anything that is not first
 ansible --list-host qa:dev
 ansible-playbook playbooks/01-ping.yml
 ansible-playbook playbooks/02-shell.yml 
