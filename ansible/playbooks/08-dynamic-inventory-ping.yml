@@ -1,0 +1,12 @@
+---
+
+# Ansible playbook for pinging using dynamic host config
+- hosts: all
+  tasks:
+    - name: Ping All Servers
+      action: ping
+    - debug: msg="Hi there!"
+
+- hosts: aws_ec2
+  tasks:
+    - debug: msg="Hi there!"
