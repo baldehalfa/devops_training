@@ -43,18 +43,18 @@ resource "aws_instance" "http_server" {
   //subnet_id              = "subnet-3f7b2563"
   subnet_id = data.aws_subnets.default_subnets.ids[0]
 
-#   connection {
-#     type        = "ssh"
-#     host        = self.public_ip
-#     user        = "ec2-user"
-#     private_key = file(var.aws_key_pair)
-#   }
+  connection {
+    type        = "ssh"
+    host        = self.public_ip
+    user        = "ec2-user"
+    private_key = file(var.aws_key_pair)
+  }
 
-#   provisioner "remote-exec" {
-#     inline = [
-#       "sudo yum install httpd -y",
-#       "sudo service httpd start",
-#       "echo Welcome to my server - Virtual Server is at ${self.public_dns} | sudo tee /var/www/html/index.html"
-#     ]
-#   }
+  provisioner "remote-exec" {
+    inline = [
+      "sudo yum install httpd -y",
+      "sudo service httpd start",
+      "echo Welcome to my server - Virtual Server is at ${self.public_dns} | sudo tee /var/www/html/index.html"
+    ]
+  }
 }
