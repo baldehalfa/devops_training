@@ -1,8 +1,8 @@
 variable "users" {
   default = {
-    ravs : { country : "Netherlands", department : "ABC" },
-    tom : { country : "US", department : "DEF" },
-    jane : { country : "India", department : "XYZ" }
+    alfa : { country : "Canada", department : "Tech" },
+    riame : { country : "US", department : "Sales" },
+    bobo : { country : "Guinea", department : "Finance" }
   }
 }
 
