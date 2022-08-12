@@ -32,3 +32,4 @@ resource "aws_iam_user" "my_iam_user" {
 # resource "aws_iam_user" "my_iam_user" {
 #   name = "my_iam_user_baldeh"
 # }
+
