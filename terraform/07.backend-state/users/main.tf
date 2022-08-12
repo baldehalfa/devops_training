@@ -1,27 +1,18 @@
 terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.0"
-    }
+  backend "s3" {
+    bucket = "dev-applications-backend-state-baldehalfa"
+    # key = "07-backend-state-users-dev"
+    key            = "dev/07-backend-state/users/backend-state"
+    region         = "us-east-1"
+    dynamodb_table = "dev_application_locks"
+    encrypt        = true
   }
 }
 
-# Configure AWS Provider
 provider "aws" {
   region = "us-east-1"
 }
 
-# Creation of an S3 bucket
-resource "aws_s3_bucket" "my_s3_bucket" {
-  bucket = "baldehalfa-s3-001"
-  versioning {
-    enabled = true
-  }
-}
-
 resource "aws_iam_user" "my_iam_user" {
-  name = "my_user_baldeh"
+  name = "${terraform.workspace}_my_iam_user_abc"
 }
-
-
